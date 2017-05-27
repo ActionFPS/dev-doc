@@ -6,7 +6,7 @@
 
     <xsl:template match="structure">
         digraph { &#xa;
-        graph [splines=ortho, nodesep=1];
+        graph [splines=ortho, nodesep=0.1];
         node [shape=record];
         rankdir = LR; &#xa;
         <xsl:apply-templates select="project"/>
